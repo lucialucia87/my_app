@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  /* 
+    기본 배경색은 App.tsx의 최상위 div에서 bg-neutral 클래스로 설정하고 있으므로,
+    여기서 body에 직접 배경색을 지정할 필요는 없을 수 있습니다.
+    tailwind.config.js의 neutral.DEFAULT 색상(#F2F2F7)이 적용되도록 하려면
+    App.tsx의 최상위 div에 bg-neutral 클래스를 유지하거나,
+    여기에 background-color를 직접 지정할 수 있습니다.
+  */
+}
